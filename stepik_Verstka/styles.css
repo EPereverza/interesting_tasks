@@ -1,0 +1,175 @@
+body {
+    font-family:Roboto, sans-serif;
+    background-color: #EEE;
+}
+
+.site_logo {
+    float: left;
+    padding-left: 55px;
+}
+
+h1
+h2 {
+    margin: 0;
+}
+.titles {
+    margin-top: 48px; 
+    margin-bottom: 22px;
+    color: #007765; 
+    font-weight: 500;
+    font-size: 64px; 
+    line-height: 75px; 
+    text-align: center; 
+  }
+
+.navigation {
+    height: 100%; 
+    display: flex; 
+    align-items: center;
+    justify-content: space-between; 
+    color: #ffffff;
+    padding-right: 55px;
+}
+.clear {
+    clear: both;
+}
+.link {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: medium;
+}
+.site_header {
+    width: 100%; 
+    background-color: #007765; 
+    height: 84px; 
+    display: flex; 
+    align-items: center; 
+    position: fixed;
+    top: 84;
+    z-index: 21;
+    
+}
+.main_container {
+    box-sizing: content-box;
+    width: 100%; 
+    max-width: 1219px;
+    margin-left: auto; 
+    margin-right: auto;
+    padding-left: 55px; 
+    padding-right: 55px;
+}
+.section_1 {
+    box-sizing: border-box;
+    background: url(img/image.png);
+    background-position: center;
+    background-size: cover; 
+    width: 100%;
+    padding-top: 160px; 
+    padding-bottom: 76px; 
+    margin: auto;
+}
+.main_title {
+    font-style: normal ; 
+    font-weight:bold; 
+    font-size: 72px; 
+    line-height: 84px; 
+    text-align: center; 
+    color: #fff; 
+}
+
+.section_2 {
+    background-color: #EEE;
+    padding: auto;
+    margin: auto;
+}
+
+.text_section_2 {
+    font-style: normal; 
+    font-weight: normal;
+    font-size: 32px;
+}
+
+.section_3 {
+    padding-top: 128px;
+    padding-bottom: 128px;
+    background-image: url('img/hero_logo.png');
+    background-size: cover;
+    background-position: center center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.hero_message {
+    font-style: italic;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: center;
+    color: #fff;
+}
+
+.logo_sect_4 {
+    width: 118px;
+    height: 118px;
+    float: left;
+    margin-right: 20px;
+}
+
+.section_4 {
+    background-color: #EEE;
+    padding: auto;
+    margin: auto;
+}
+
+.team {
+    padding-top: 58px;
+}
+
+.figure {
+    margin: 0; 
+    padding: 0; 
+    display: flex; 
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.img {
+    width: 350px; 
+    height: 283px; 
+    text-align: center;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    padding-bottom: 55px;
+}
+
+.name {
+    font-weight: 700; 
+    font-size: 24px; 
+    line-height: 28px; 
+    color: #007765; 
+    margin-bottom: 10px;
+  }
+
+.footer {
+    padding-top: 50px; /*Устанавливает значение поля от верхнего края содержимого элемента*/
+    background-color: #333; /*Определяет цвет фона элемента*/
+    height: 176px; /*Устанавливает высоту содержимого элемента*/
+    text-align: center; /*Определяет горизонтальное выравнивание текста в пределах элемента*/
+}
+.text_footer {
+    width: 540px; /*Устанавливает ширину содержимого элемента*/
+    height: 74px; /*Устанавливает высоту содержимого элемента*/
+    margin: 0 auto; /*Расстояние от края элемента до края другог элемента*/
+    color: #fff; /*Определяет цвет текста элемента*/
+    font-style: normal; /*Определяет начертание шрифта — обычное, курсивное или наклонное*/
+    font-weight: normal; /*Устанавливает насыщенность шрифта*/
+    font-size: 18px; /*Определяет размер шрифта элемента*/
+    line-height: 21px; /*Задаёт высоту строки текста*/
+  }
+
+.section_5 {
+    background-color: #fff; /*Определяет цвет фона элемента*/
+    padding-top: 58px; /*Устанавливает значение поля от верхнего края содержимого элемента*/
+    padding-bottom: 112px; /*Устанавливает значение поля от нижнего края содержимого элемента*/
+}
